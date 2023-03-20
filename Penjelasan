@@ -1,0 +1,9 @@
+FPB merupakan suatu bilangan bulat positif terbesar yang dapat membagi kedua bilangan tanpa sisa. 
+Sedangkan, KPK adalah bilangan bulat positif terkecil yang merupakan kelipatan dari kedua bilangan tersebut.
+Fungsi hitung_fpb(a, b) dan hitung_kpk(a, b) masing-masing adalah implementasi algoritma untuk menghitung nilai FPB dan KPK. 
+Fungsi hitung_fpb(a, b) menggunakan algoritma rekursif dengan memanfaatkan sifat bahwa FPB(a, b) = FPB(b, a mod b) sedangkan 
+fungsi hitung_kpk(a, b) menggunakan algoritma iteratif dengan mencari nilai KPK secara bertahap hingga ditemukan nilai yang memenuhi kondisi.
+Selanjutnya, program akan menampilkan menu pilihan untuk pengguna untuk memilih apakah akan menghitung FPB atau KPK dari dua bilangan, 
+atau keluar dari program. Setelah pengguna memilih opsi yang diinginkan, program akan meminta pengguna memasukkan dua bilangan yang ingin dihitung FPB atau KPK-nya, 
+dan kemudian menampilkan hasilnya. Apabila pengguna memilih opsi keluar, program akan menampilkan pesan terima kasih dan keluar dari program. 
+Sedangkan jika pengguna memilih opsi yang tidak valid, maka program akan menampilkan pesan kesalahan dan meminta pengguna untuk memilih opsi yang benar.
